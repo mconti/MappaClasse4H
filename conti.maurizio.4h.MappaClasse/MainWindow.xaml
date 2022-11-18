@@ -36,17 +36,17 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="1" Grid.Column="0" Margin="5" Click="OnClick" Tag="Alessandro">1</Button>
-        <Button Grid.Row="1" Grid.Column="1" Margin="5" Click="OnClick" Tag="Maurizio">2</Button>
-        <Button Grid.Row="1" Grid.Column="2" Margin="5" Click="OnClick">3</Button>
-        <Button Grid.Row="1" Grid.Column="3" Margin="5" Click="OnClick">4</Button>
-        <Button Grid.Row="1" Grid.Column="4" Margin="5" Click="OnClick">5</Button>
+        <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Margin="5" Click="OnClick">1</Button>
+        <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Margin="5" Click="OnClick">2</Button>
+        <Button x:Name="btn12" Grid.Row="1" Grid.Column="2" Margin="5" Click="OnClick">3</Button>
+        <Button x:Name="btn13" Grid.Row="1" Grid.Column="3" Margin="5" Click="OnClick">4</Button>
+        <Button x:Name="btn14" Grid.Row="1" Grid.Column="4" Margin="5" Click="OnClick">5</Button>
 
-        <Button Grid.Row="3" Grid.Column="0" Margin="5" Click="OnClick">1</Button>
-        <Button Grid.Row="3" Grid.Column="1" Margin="5" Click="OnClick">2</Button>
-        <Button Grid.Row="3" Grid.Column="2" Margin="5" Click="OnClick">3</Button>
-        <Button Grid.Row="3" Grid.Column="3" Margin="5" Click="OnClick">4</Button>
-        <Button Grid.Row="3" Grid.Column="4" Margin="5" Click="OnClick">5</Button>
+        <Button x:Name="btn20" Grid.Row="3" Grid.Column="0" Margin="5" Click="OnClick">1</Button>
+        <Button x:Name="btn21" Grid.Row="3" Grid.Column="1" Margin="5" Click="OnClick">2</Button>
+        <Button x:Name="btn22" Grid.Row="3" Grid.Column="2" Margin="5" Click="OnClick">3</Button>
+        <Button x:Name="btn23" Grid.Row="3" Grid.Column="3" Margin="5" Click="OnClick">4</Button>
+        <Button x:Name="btn24" Grid.Row="3" Grid.Column="4" Margin="5" Click="OnClick">5</Button>
 
     </Grid>
 </Window>
